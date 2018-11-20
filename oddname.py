@@ -2,3 +2,8 @@
 
 name = input("Enter name: ")
 
+while len(name) <= 1:
+    print("Invalid")
+    name = input("Enter long name: ")
+
+print(name[::2])
